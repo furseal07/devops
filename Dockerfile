@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 # Set the working directory
 WORKDIR /app
 
-# Copy the jar file from the build stage
+# Copy the jar file from the build stage 
 COPY build/libs/*.jar app.jar
 
 # Expose the port the application runs on
