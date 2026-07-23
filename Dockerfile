@@ -11,5 +11,5 @@ COPY build/libs/*.jar app.jar
 # Expose the port the application runs on
 EXPOSE 8090
 
-# Define the command to run the application
+# Define the command to run the application 
 ENTRYPOINT ["java", "-jar", "app.jar"]
